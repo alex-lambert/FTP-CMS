@@ -1,0 +1,90 @@
+#fileexplorer { margin: 10px; background: #FFFFFF; padding: 10px; border: 2px solid #666666; }
+
+ul.prototypeFileTree {
+	font-family: Trebuchet, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	padding: 0px;
+	margin: 0px;
+}
+ul.prototypeFileTree li {
+	list-style: none;
+	padding: 0px;
+	padding-left: 20px;
+	margin: 0px;
+	white-space: nowrap;
+}
+ul.prototypeFileTree a {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	padding: 0px 2px;
+}
+ul.prototypeFileTree a:hover {
+	background: #CCC;
+}
+
+.prototypeFileTree li.directory { background: url(../icons/directory.png) left top no-repeat; }
+.prototypeFileTree li.expanded { background: url(../icons/folder_open.png) left top no-repeat; }
+.prototypeFileTree li.file { background: url(../icons/file.png) left top no-repeat; }
+.prototypeFileTree li.wait { background: url(../icons/spinner.gif) left top no-repeat; }
+
+/* File Extensions*/
+.prototypeFileTree li.ext_3gp { background: url(../icons/film.png) left top no-repeat; }
+.prototypeFileTree li.ext_afp { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_afpa { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_asp { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_aspx { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_avi { background: url(../icons/film.png) left top no-repeat; }
+.prototypeFileTree li.ext_bat { background: url(../icons/application.png) left top no-repeat; }
+.prototypeFileTree li.ext_bmp { background: url(../icons/picture.png) left top no-repeat; }
+.prototypeFileTree li.ext_c { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_cfm { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_cgi { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_com { background: url(../icons/application.png) left top no-repeat; }
+.prototypeFileTree li.ext_cpp { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_css { background: url(../icons/css.png) left top no-repeat; }
+.prototypeFileTree li.ext_doc { background: url(../icons/doc.png) left top no-repeat; }
+.prototypeFileTree li.ext_exe { background: url(../icons/application.png) left top no-repeat; }
+.prototypeFileTree li.ext_gif { background: url(../icons/picture.png) left top no-repeat; }
+.prototypeFileTree li.ext_fla { background: url(../icons/flash.png) left top no-repeat; }
+.prototypeFileTree li.ext_h { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_htm { background: url(../icons/html.png) left top no-repeat; }
+.prototypeFileTree li.ext_html { background: url(../icons/html.png) left top no-repeat; }
+.prototypeFileTree li.ext_jar { background: url(../icons/java.png) left top no-repeat; }
+.prototypeFileTree li.ext_jpg { background: url(../icons/picture.png) left top no-repeat; }
+.prototypeFileTree li.ext_jpeg { background: url(../icons/picture.png) left top no-repeat; }
+.prototypeFileTree li.ext_js { background: url(../icons/script.png) left top no-repeat; }
+.prototypeFileTree li.ext_lasso { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_log { background: url(../icons/txt.png) left top no-repeat; }
+.prototypeFileTree li.ext_m4p { background: url(../icons/music.png) left top no-repeat; }
+.prototypeFileTree li.ext_mov { background: url(../icons/film.png) left top no-repeat; }
+.prototypeFileTree li.ext_mp3 { background: url(../icons/music.png) left top no-repeat; }
+.prototypeFileTree li.ext_mp4 { background: url(../icons/film.png) left top no-repeat; }
+.prototypeFileTree li.ext_mpg { background: url(../icons/film.png) left top no-repeat; }
+.prototypeFileTree li.ext_mpeg { background: url(../icons/film.png) left top no-repeat; }
+.prototypeFileTree li.ext_ogg { background: url(../icons/music.png) left top no-repeat; }
+.prototypeFileTree li.ext_pcx { background: url(../icons/picture.png) left top no-repeat; }
+.prototypeFileTree li.ext_pdf { background: url(../icons/pdf.png) left top no-repeat; }
+.prototypeFileTree li.ext_php { background: url(../icons/php.png) left top no-repeat; }
+.prototypeFileTree li.ext_png { background: url(../icons/picture.png) left top no-repeat; }
+.prototypeFileTree li.ext_ppt { background: url(../icons/ppt.png) left top no-repeat; }
+.prototypeFileTree li.ext_psd { background: url(../icons/psd.png) left top no-repeat; }
+.prototypeFileTree li.ext_pl { background: url(../icons/script.png) left top no-repeat; }
+.prototypeFileTree li.ext_py { background: url(../icons/script.png) left top no-repeat; }
+.prototypeFileTree li.ext_rb { background: url(../icons/ruby.png) left top no-repeat; }
+.prototypeFileTree li.ext_rbx { background: url(../icons/ruby.png) left top no-repeat; }
+.prototypeFileTree li.ext_rhtml { background: url(../icons/ruby.png) left top no-repeat; }
+.prototypeFileTree li.ext_rpm { background: url(../icons/linux.png) left top no-repeat; }
+.prototypeFileTree li.ext_ruby { background: url(../icons/ruby.png) left top no-repeat; }
+.prototypeFileTree li.ext_sql { background: url(../icons/db.png) left top no-repeat; }
+.prototypeFileTree li.ext_swf { background: url(../icons/flash.png) left top no-repeat; }
+.prototypeFileTree li.ext_tif { background: url(../icons/picture.png) left top no-repeat; }
+.prototypeFileTree li.ext_tiff { background: url(../icons/picture.png) left top no-repeat; }
+.prototypeFileTree li.ext_txt { background: url(../icons/txt.png) left top no-repeat; }
+.prototypeFileTree li.ext_vb { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_wav { background: url(../icons/music.png) left top no-repeat; }
+.prototypeFileTree li.ext_wmv { background: url(../icons/film.png) left top no-repeat; }
+.prototypeFileTree li.ext_xls { background: url(../icons/xls.png) left top no-repeat; }
+.prototypeFileTree li.ext_xml { background: url(../icons/code.png) left top no-repeat; }
+.prototypeFileTree li.ext_zip { background: url(../icons/zip.png) left top no-repeat; }
