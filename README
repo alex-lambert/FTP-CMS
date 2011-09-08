@@ -1,0 +1,3 @@
+FTP-CMS - A remotely hosted simple content management solution, ideal for allowing clients to edit their sites from one central application.
+
+Ideally suited to small sites that do NOT use a server side language - FTP-CMS will use a defined classname to find elements in a file which should be editable.
